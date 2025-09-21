@@ -28,3 +28,30 @@ python -m venv .venv
 
 pip install -r requirements.txt
 python rto_platform.py
+```
+
+### 2) Features
+
+Rules of Engagement (RoE): scope, legal constraints, contacts, approvals.
+
+Emulation Plans: choose ATT&CK TTPs by tactic, link to threat actors/campaigns.
+
+Exercises: objectives, timeline, environment, linked RoE & Plan, stakeholders.
+
+People & Assignments: register key people; assign duties per exercise (e.g., “Approver”, “Blue POC”, “Comms”).
+
+Findings: severity, status, remediation, evidence, owner, asset.
+
+IoCs: IP/Domain/URL/Hash/etc, linked to technique IDs (optional).
+
+Threat Intel: notes with sources and tags.
+
+MITRE Map: techniques grouped by tactics (Initial Access, Execution, …) with search.
+
+Cyber Kill Chain: map selected TTPs to each stage and save versions.
+
+Dashboards: KPIs, Findings by Severity (bar), Status over Time (line).
+
+PDF Report: per exercise — includes objectives, linked RoE & Plan, TTPs, stakeholders, findings, and IoCs snapshot.
+
+<img width="1906" height="836" alt="image" src="https://github.com/user-attachments/assets/5b450904-7b88-4c18-aa43-68b524fc1899" />
