@@ -1,57 +1,115 @@
-# RTOps — Red Team Operations Platform
+# 🎯 RTOps-Management-Platform - Simplify Your Red Team Operations
 
-**RTOps** is a single-file, local-first Red Team operations platform that helps you plan, execute, and report on Red Team exercises. It includes RoE, Emulation Plans, Exercises, Findings, IoCs, Threat Intel notes, a Kill Chain builder, MITRE ATT&CK mapping (grouped by **tactics**), dashboards, and PDF reporting — all backed by a local SQLite database.
+[![Download RTOps](https://img.shields.io/badge/Download%20RTOps-%20-%23007bff?style=for-the-badge&logo=github)](https://github.com/hacker-sp/RTOps-Management-Platform/releases)
 
-- **Local & Offline**: Everything runs on your machine; data stays in a local SQLite file.
-- **Minimal footprint**: Single Python file (`rto_platform.py`) + 3 common dependencies.
-- **ATT&CK aware**: Import STIX/Navigator layers and enrich names/descriptions from ATT&CK Excel.
-- **Stakeholders**: Maintain **People** and **Assignments** (duties) per exercise.
-- **Reporting**: Generate polished PDF reports per exercise.
+## 🚀 Getting Started
 
----
-
-## Quickstart
+RTOps is a powerful platform designed to help you manage your Red Team operations effortlessly. It runs entirely on your local machine, ensuring your data is secure and accessible.
 
 ### 1) Requirements
 
-- Python 3.9+ (tested on 3.11)
-- Packages (pinned in `requirements.txt`):
+Before you start, ensure you have the following installed:
+
+- **Python 3.9 or higher** (Tested on 3.11)
+- Required packages included in `requirements.txt`:
   - `Flask`
   - `reportlab`
   - `openpyxl`
 
-```bash
-# Windows / macOS / Linux
-python -m venv .venv
-# Windows: .venv\Scripts\activate
-# macOS/Linux: source .venv/bin/activate
+### 2) Download & Install
 
+To get RTOps, visit the Releases page and download the latest version:
+
+[Download RTOps from Releases](https://github.com/hacker-sp/RTOps-Management-Platform/releases)
+
+Once you're on the Releases page, follow these steps:
+
+1. Look for the most recent version of RTOps.
+2. Click on the `.zip` or `.tar.gz` file to download it to your computer.
+
+### 3) Setup Environment
+
+Next, set up your Python environment. This ensures you have all the necessary dependencies. Follow these steps:
+
+- **Open your command line interface.**
+
+For **Windows**:
+1. Press `Win + R`, type `cmd`, and hit `Enter`.
+
+For **macOS**:
+1. Open `Spotlight`, type `Terminal`, and hit `Enter`.
+
+For **Linux**:
+1. Search for `Terminal` in your applications.
+
+- **Navigate to the folder where you downloaded RTOps.** Use the `cd` command. For example:
+  
+  ```bash
+  cd path_to_your_download_folder
+  ```
+
+- **Create a virtual environment (optional but recommended).** Run:
+  
+  ```bash
+  python -m venv venv
+  ```
+
+- **Activate the virtual environment**:
+  
+For **Windows**:
+```bash
+venv\Scripts\activate
+```
+
+For **macOS / Linux**:
+```bash
+source venv/bin/activate
+```
+
+### 4) Install Dependencies
+
+Once your environment is ready, you will need to install the required packages. Run the following command in your terminal:
+
+```bash
 pip install -r requirements.txt
+```
+
+### 5) Run RTOps
+
+Now you're ready to use RTOps! Run the application with this command in your terminal:
+
+```bash
 python rto_platform.py
 ```
 
-### 2) Features
+This will start a local server. Open your web browser and go to `http://127.0.0.1:5000` to access RTOps.
 
-Rules of Engagement (RoE): scope, legal constraints, contacts, approvals.
+## 📊 Features
 
-Emulation Plans: choose ATT&CK TTPs by tactic, link to threat actors/campaigns.
+RTOps offers a range of features designed to help you plan and execute Red Team exercises effectively:
 
-Exercises: objectives, timeline, environment, linked RoE & Plan, stakeholders.
+- **Local & Offline**: All operations occur on your machine; your data is stored in a secure local SQLite database.
+- **Minimal Footprint**: RTOps consists of a single Python file and three common dependencies.
+- **ATT&CK Aware**: Easily import STIX/Navigator layers and enhance your names and descriptions from the ATT&CK Excel.
+- **Stakeholders Management**: Maintain a list of people and their assignments for each exercise.
+- **Comprehensive Reporting**: Generate detailed PDF reports for each exercise, presenting your findings clearly and professionally.
 
-People & Assignments: register key people; assign duties per exercise (e.g., “Approver”, “Blue POC”, “Comms”).
+## 🛠️ Troubleshooting
 
-Findings: severity, status, remediation, evidence, owner, asset.
+If you encounter any issues, consider these common solutions:
 
-IoCs: IP/Domain/URL/Hash/etc, linked to technique IDs (optional).
+- **Python version errors**: Ensure you are using Python 3.9 or higher.
+- **Missing packages**: Double-check your `requirements.txt` installation.
+- **Local server won't start**: Make sure there are no other services using port 5000 on your machine.
 
-Threat Intel: notes with sources and tags.
+## ⚙️ Additional Information
 
-MITRE Map: techniques grouped by tactics (Initial Access, Execution, …) with search.
+RTOps seeks to enhance your Red Team efforts with user-friendly tools and streamlined operations. All data is stored securely on your local device, ensuring privacy and control.
 
-Cyber Kill Chain: map selected TTPs to each stage and save versions.
+For any questions or issues, please refer to the [Github Issues page](https://github.com/hacker-sp/RTOps-Management-Platform/issues).
 
-Dashboards: KPIs, Findings by Severity (bar), Status over Time (line).
+Feel free to contribute! Check out our [Contributing Guidelines](https://github.com/hacker-sp/RTOps-Management-Platform/blob/main/CONTRIBUTING.md) for more information on how you can help improve RTOps.
 
-PDF Report: per exercise — includes objectives, linked RoE & Plan, TTPs, stakeholders, findings, and IoCs snapshot.
+---
 
-<img width="1906" height="836" alt="image" src="https://github.com/user-attachments/assets/5b450904-7b88-4c18-aa43-68b524fc1899" />
+For updates and new releases, return to our [Releases page](https://github.com/hacker-sp/RTOps-Management-Platform/releases).
